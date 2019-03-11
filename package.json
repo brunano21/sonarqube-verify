@@ -1,5 +1,5 @@
 {
-  "name": "sonarqube-verify",
+  "name": "sonarqube-gate-check",
   "version": "0.0.1",
   "description": "Launch SonarQube analysis and add a verification on the status of the Quality Gate after the report has ended",
   "main": "dist/index.js",
@@ -14,19 +14,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SkxNMDI5/sonarqube-verify.git"
+    "url": "git+https://github.com/brunano21/sonarqube-verify.git"
   },
   "keywords": [
     "sonarqube",
     "quality",
     "checker"
   ],
-  "author": "SkxNMDI5",
+  "author": "brunano21",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SkxNMDI5/sonarqube-verify/issues"
+    "url": "https://github.com/brunano21/sonarqube-verify/issues"
   },
-  "homepage": "https://github.com/SkxNMDI5/sonarqube-verify#readme",
+  "homepage": "https://github.com/brunano21/sonarqube-verify#readme",
   "dependencies": {
     "debug": "^3.1.0",
     "slug": "^0.9.1",

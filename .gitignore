@@ -60,3 +60,5 @@ typings/
 # Sonarqube
 .scannerwork
 
+# Editor
+.idea
