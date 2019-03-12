@@ -1,4 +1,4 @@
-# sonarqube-verify
+# sonarqube-gate-check
 Launch SonarQube analysis using the sonarqube-scanner npm module by @bellingard : https://github.com/bellingard/sonar-scanner-npm then it check the Quality Gate status after report has ended.
 
 Tested with [SonarQube 6.5](https://docs.sonarqube.org/display/SONAR/Documentation)
@@ -7,14 +7,14 @@ Tested with [SonarQube 6.5](https://docs.sonarqube.org/display/SONAR/Documentati
 
 ### Installation
 ```
-npm install -D sonarqube-verify
+npm install -D sonarqube-gate-check
 ```
 
 ### Execution (CLI)
 Insert a script into your package.json :
 ```
 "scripts" : {
-    "verify": "sonarqube-verify"
+    "verify": "sonarqube-gate-check"
 }
 ```
 
@@ -58,5 +58,5 @@ DEBUG=* npm run verify
 
 or more accurately :
 ```
-DEBUG=sonarqube-verify:* npm run verify
+DEBUG=sonarqube-gate-check:* npm run verify
 ```
